@@ -61,4 +61,6 @@ v = [ a2.*b3 + b2.*a3 + c2.*d3 - d2.*c3, ...
 
 if t1 && t2
     v = v';
+else
+    v = v;
 end

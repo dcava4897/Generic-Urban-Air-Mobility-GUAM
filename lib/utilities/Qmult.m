@@ -51,4 +51,6 @@ q = [ a1.*a2 - b1.*b2 - c1.*c2 - d1.*d2, ...
 
 if t1 && t2
     q = q';
+else
+    q = q;
 end
